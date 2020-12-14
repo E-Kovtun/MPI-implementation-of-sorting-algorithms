@@ -1,5 +1,5 @@
 # MPI-implementation-of-sorting-algorithms
-Algorithms like QuickSort, MergeSort, BitonicSort, OddEvevSort were considered. The main goal of the project is to compare computational time of regular version, jitted version and MPI version of the algorithms. Jitted version is created from regular version by simple adding @jit decorator before all functions. 4 processes were used for analyzing MPI implementation. Arrays which had to be sorted had sizes from 2**7 to 2**24 and contained random integer values.
+Algorithms like QuickSort, MergeSort, BitonicSort, OddEvevSort were considered. The main goal of the project is to compare computational time of regular version, jitted version and MPI version of the algorithms. Jitted version is created from regular version by simple adding @jit decorator before all functions. 4 processes were used for analyzing MPI implementation. Arrays which had to be sorted had sizes from 2^7 to 2^24 and contained random integer values.
 ![Quick Sort](https://user-images.githubusercontent.com/72077799/102056564-9faf0600-3dfd-11eb-8de6-b540b4a7f6ae.png)
 ![Merge Sort](https://user-images.githubusercontent.com/72077799/102056622-afc6e580-3dfd-11eb-9052-4e9023687802.png)
 ![Bitonic Sort](https://user-images.githubusercontent.com/72077799/102056633-b3f30300-3dfd-11eb-8c7d-f714611d5033.png)
